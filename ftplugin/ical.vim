@@ -1,4 +1,4 @@
-" Language:    iCalendar
+" Language:    iCalendar and vCalendar
 " Location:    ftplugin/ical.vim
 " Website:     https://github.com/axvr/ical.vim
 " Maintainer:  Alex Vear <alex@vear.uk>
