@@ -7,12 +7,4 @@
 "              <https://datatracker.ietf.org/doc/html/rfc7986>
 
 setlocal iskeyword=a-z,A-Z,48-57,-
-
-" iCalendar uses DOS line endings (CRLF)
-setlocal fileformat=dos
-
-" Maximum octet count is 75 per line.
-setlocal textwidth=75
-
-" No folding
-setlocal foldmethod=manual
+setlocal fileformat=dos textwidth=75 foldmethod=manual

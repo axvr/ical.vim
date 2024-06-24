@@ -1,5 +1,5 @@
 " Language:    vCard
-" Location:    syntax/vcf.vim
+" Location:    syntax/vcard.vim
 " Website:     https://github.com/axvr/ical.vim
 " Maintainer:  Alex Vear <alex@vear.uk>
 " License:     CC0  (Public domain)
