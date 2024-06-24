@@ -10,6 +10,7 @@ if exists("b:current_syntax")
     finish
 endif
 
+" The iCalendar format is case insensitive.
 syntax case ignore
 
 syn match iCalDelimiter /[:;,=]/ contained
@@ -49,6 +50,7 @@ syn keyword iCalProperty contained
             \ EXDATE EXRULE RDATE RRULE ACTION REPEAT TRIGGER CREATED DTSTAMP
             \ LAST-MODIFIED SEQUENCE REQUEST-STATUS
             \ NAME REFRESH-INTERVAL SOURCE COLOR IMAGE CONFERENCE
+
 syn keyword iCalValue contained
             \ BINARY BOOLEAN CAL-ADDRESS DATE DATE-TIME DURATION FLOAT INTEGER
             \ PERIOD RECUR TEXT TIME URI UTC-OFFSET
