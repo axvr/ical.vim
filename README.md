@@ -1,6 +1,6 @@
 # iCal.vim
 
-[iCalendar](https://en.wikipedia.org/wiki/ICalendar) syntax highlighting for Vim/Neovim.
+[iCalendar](https://en.wikipedia.org/wiki/ICalendar) and [vCard](https://en.wikipedia.org/wiki/VCard) syntax highlighting for Vim/Neovim.
 
 
 ## Installation
@@ -17,11 +17,20 @@ vim +'helptags ~/.vim/pack/plugins/start/ical/doc/' +q
 
 ## Reference
 
+### iCalendar
+
 - [RFC 5545][]: Internet Calendaring and Scheduling Core Object Specification (iCalendar)
 - [RFC 7986][]: New Properties for iCalendar
 
 [RFC 5545]: https://datatracker.ietf.org/doc/html/rfc5545
 [RFC 7986]: https://datatracker.ietf.org/doc/html/rfc7986
+
+
+### vCard
+
+- [RFC 6350][]: vCard Format Specification
+
+[RFC 6350]: https://datatracker.ietf.org/doc/html/rfc6350
 
 
 ## Legal
