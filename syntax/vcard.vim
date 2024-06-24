@@ -5,11 +5,9 @@
 " License:     CC0  (Public domain)
 " RFCs:        <https://datatracker.ietf.org/doc/html/rfc6350>
 
-if exists("b:current_syntax")
+if exists("b:current_syntax") && b:current_syntax != 'vCard'
     finish
 endif
-
-setlocal syntax=ical
 
 syn clear iCalComponent
 syn keyword iCalComponent contained VCARD
