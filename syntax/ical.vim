@@ -16,7 +16,7 @@ syntax case ignore
 syn match iCalDelimiter /[:;,=]/ contained
 
 syn match iCalEscaped /\\[,;n\\]/ contained
-syn match iCalDate /[0-9]\{8}T[0-9]\{6}Z\?/ contained
+syn match iCalDate /\<[0-9]\{8}\(T[0-9]\{6}Z\?\)\?\>/ contained
 syn region iCalText start=// skip=/^ / end=/^/
             \ contained contains=iCalEscaped,@Spell,iCalDate
 
