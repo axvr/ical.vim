@@ -5,7 +5,7 @@
 " License:     CC0  (Public domain)
 " RFCs:        <https://datatracker.ietf.org/doc/html/rfc6350>
 
-if exists("b:current_syntax") && b:current_syntax != 'vCard'
+if exists("b:current_syntax") && b:current_syntax !=# 'iCal'
     finish
 endif
 
