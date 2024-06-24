@@ -7,4 +7,3 @@
 
 setlocal iskeyword=a-z,A-Z,48-57,-
 setlocal fileformat=dos textwidth=75 foldmethod=manual
-setlocal syntax=ical.vcard

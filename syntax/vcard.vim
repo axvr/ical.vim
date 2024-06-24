@@ -9,6 +9,8 @@ if exists("b:current_syntax") && b:current_syntax !=# 'iCal'
     finish
 endif
 
+setlocal syntax=ical.vcard
+
 syn clear iCalComponent
 syn keyword iCalComponent contained VCARD
 
