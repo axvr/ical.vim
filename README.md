@@ -15,7 +15,7 @@ vim +'helptags ~/.vim/pack/plugins/start/ical/doc/' +q
 ```
 
 
-## Reference
+## References
 
 ### iCalendar
 
