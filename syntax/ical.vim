@@ -6,9 +6,8 @@
 " RFCs:        <https://datatracker.ietf.org/doc/html/rfc5545>
 "              <https://datatracker.ietf.org/doc/html/rfc7986>
 
-if exists("b:current_syntax")
-    finish
-endif
+if exists("b:current_syntax") | finish | endif
+let b:current_syntax = "iCal"
 
 " The iCalendar format is case insensitive.
 syntax case ignore
@@ -75,5 +74,3 @@ hi def link iCalCustomProperty Warning
 hi def link iCalDelimiter Delimiter
 hi def link iCalEscaped Comment
 hi def link iCalQuotedParamVal String
-
-let b:current_syntax = "iCal"
